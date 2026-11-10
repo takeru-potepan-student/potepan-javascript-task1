@@ -1,0 +1,30 @@
+.stopwatch {
+  margin: 50px 0 60px 16px;
+  font-size: 20px;
+}
+
+.stopwatch span {
+  margin: 0 8px;
+  font-size: 34px;
+}
+
+.buttons button {
+  width: 84px;
+  height: 40px;
+  margin-right: 4px; 
+  font-size: 14px;
+  font-weight: bold;
+  border: 1px solid #767676;
+  border-radius: 4px;
+}
+
+.buttons button:hover:not(:disabled) {
+  background: #e0e0e0;
+}
+
+.buttons button:disabled {
+  color: #aaa;
+  background: #eee;
+  border-color: #ccc;
+  cursor: default;
+}
